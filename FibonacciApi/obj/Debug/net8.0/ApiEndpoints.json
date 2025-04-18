@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "FibonacciApi.Controllers.FibonacciController",
+    "Method": "Get",
+    "RelativePath": "Fibonacci",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "endIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "useCache",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "timeoutMs",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxMemoryBytes",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
